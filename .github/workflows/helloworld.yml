@@ -1,0 +1,4 @@
+name: Hello world
+on:
+  pull_request:
+    types: [opened]
