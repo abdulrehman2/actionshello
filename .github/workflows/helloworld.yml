@@ -28,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 'Check for buttons'
+      - name: 'Check for buttons trigger'
         run: ./.github/scripts/checker.sh
         env:
           FILE: ./src/components/Button.js
